@@ -1,0 +1,57 @@
+.contest-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  gap: 10px; /* Add spacing between elements */
+}
+
+.contest-details span,
+.contest-details a {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Truncate long text with ellipsis */
+}
+
+.name {
+  flex: 2; /* Allow the name to take up more space */
+  text-align: left;
+}
+
+.status,
+.date,
+.time,
+.platform {
+  flex: 1; /* Equal spacing for these elements */
+  text-align: center;
+}
+
+.goto-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  flex: 1; /* Adjust space for the link */
+  text-align: right;
+}
+
+.goto-link:hover {
+  text-decoration: underline;
+}
+
+.status {
+  color: #28a745;
+  font-weight: bold;
+}
+
+
+#heading{
+  /* test-align:center; */
+  align-items: center;
+  /* margin: auto; */
+  /* color: red; */
+}
